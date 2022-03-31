@@ -1,5 +1,5 @@
 name: "my hello action"
 description: "say hello with github actions"
 runs:
-  using: "node16"
+  using: "node12"
   main: "main.js"
