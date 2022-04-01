@@ -1,5 +1,7 @@
 name: JS Actions
-on: [push]
+on:
+  pull_request:
+    types: [labeled]
 jobs:
   action:
     runs-on: ubuntu-latest
